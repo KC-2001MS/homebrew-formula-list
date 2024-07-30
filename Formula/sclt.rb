@@ -5,7 +5,7 @@ class Sclt < Formula
   url "https://github.com/KC-2001MS/SwiftLI.git", tag: "0.3.1"
   version "0.0.2"
 
-  depends_on "xcode": [:build]
+  # depends_on "xcode": [:build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
